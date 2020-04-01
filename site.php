@@ -13,6 +13,8 @@ $app->get('/', function() {
 
 	$products = Product::listAll();
 
+	//$products = Product::listFeatured(); {Metodo para colocar a lista de produtos em destaque}
+
 	$page = new Page();
 
 	$page->setTpl("index", [
