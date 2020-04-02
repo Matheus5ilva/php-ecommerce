@@ -109,8 +109,8 @@ class Cart extends Model {
 			':nrdays'=>$this->getnrdays()
 		]);
 
-        $this->setData($results[0]);
-        
+		$this->setData($results[0]);
+
 	}
 
 	public function addProduct(Product $product)
